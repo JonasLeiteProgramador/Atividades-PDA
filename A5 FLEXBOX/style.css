@@ -1,0 +1,15 @@
+.coluna1 ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+}
+li{
+    width: 100px;
+}
+.coluna2 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

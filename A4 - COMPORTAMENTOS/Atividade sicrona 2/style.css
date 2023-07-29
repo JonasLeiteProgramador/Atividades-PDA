@@ -1,0 +1,15 @@
+.lista{
+display: flex;
+flex-direction: row;
+}
+.item {
+    width: auto;
+}
+@media screen and (max-width:720px){
+ .lista{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+ }
+}

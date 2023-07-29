@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6.063rem;
+    padding: 50px;
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+ul {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+    margin-left: 80px;
+}
+
+.cabeçalho{
+    display: flex;
+}
+.cabeçalho h1 {
+    color: white;
+}
+.cabeçalho h1:hover{
+    color:red;
+
+}
+.cabeçalho h2 {
+    color: white;
+    font-size: 23px;
+    font-weight: 250px;
+    margin-left: 110px
+}
+.cabeçalho h2:hover{
+    color: red;
+}
+    .perfil {
+    border-radius: 50%;
+    border: 1px solid white
+}	
+.botão{
+    background-color: white(255, 0, 0);
+    border-radius: 20px;
+    border: 1px solid rgb(253, 0, 0);
+    color: red;
+}
+.botão:hover{
+    background-color: red;
+    color:white
+
+}
+.bordas{
+    background: #fcfcff6c;
+    width: 13.875rem;
+    min-width: 16.875rem;
+    height: 21.875rem;
+    border-radius: 8%;
+    text-align: center;
+    flex: 1 0 calc(33% - 2.5rem);
+    margin-top: 1.25rem;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    overflow: hidden;
+    transition: 0.3s ease;
+    font-size: 30px;    
+    
+}
+.habilidades{
+    display: flex;
+    width: auto;
+}
+.habilidades h1:hover{
+    color: red;
+}

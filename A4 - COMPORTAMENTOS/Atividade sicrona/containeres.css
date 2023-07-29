@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+.container-horizontal {
+    display: flex;
+    flex-direction: row;
+}
+.item {
+    width: auto;
+}
+
+.container-vertical {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    height: auto;
+}

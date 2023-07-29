@@ -1,0 +1,10 @@
+.Primeira{
+display:flex;
+text-align:center;
+background: rgb(0, 0, 0);
+align-items: center;
+display: inline-block;
+color:red;
+font-size: 50px;
+}
+

@@ -1,0 +1,9 @@
+body{
+    display: flex;
+   background-image: url(greg-rakozy-oMpAz-DN-9I-unsplash.jpg);
+   background-size: cover;
+}
+h1 {
+    color: blue;
+    
+}

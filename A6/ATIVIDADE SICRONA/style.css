@@ -1,0 +1,8 @@
+
+.botão{
+    transition: 0.3s ease;
+}
+.botão:hover {
+    color: red;
+    transform: scale(1.2);
+}
